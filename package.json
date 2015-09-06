@@ -28,9 +28,6 @@
     "insensitive"
   ],
   "dependencies": {
-    "custom-factory": "^1.4.7",
-    "inherits-ex": "^1.1.3",
-    "property-manager": "^0.10.0",
     "tmp": "0.0.27"
   },
   "devDependencies": {
