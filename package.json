@@ -1,0 +1,81 @@
+{
+  "name": "fs-file-name-sensitive",
+  "description": "Check the file name of the file system is case-sensitive or not.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/snowyu/fs-file-name-sensitive.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snowyu/fs-file-name-sensitive.js.git"
+  },
+  "main": "./index",
+  "files": [
+    "README.md",
+    "LICENSE-MIT",
+    "*.js",
+    "*.coffee",
+    "test",
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "fs",
+    "file system",
+    "file",
+    "file name",
+    "check",
+    "case",
+    "sensitive",
+    "insensitive"
+  ],
+  "dependencies": {
+    "custom-factory": "^1.4.7",
+    "inherits-ex": "^1.1.3",
+    "property-manager": "^0.10.0",
+    "tmp": "0.0.27"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "coffee-coverage": "^0.6.3",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-coffee": "~0.12.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.6",
+    "grunt-newer": "~0.8.0",
+    "grunt-release": "~0.9.0",
+    "istanbul": "^0.3.18",
+    "mocha": "~2.1.0",
+    "mock-fs": "^3.1.0",
+    "pre-commit": "~1.1.1",
+    "rimraf": "~2.2.8",
+    "shasum": "1.0.0",
+    "sinon": "~1.16.1",
+    "sinon-chai": "~2.8.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "test-cov": "mocha --reporter dot && istanbul report text-summary lcovonly"
+  },
+  "contributors": [
+    {
+      "name": "Riceball LEE",
+      "email": "snowyu.lee@gmail.com",
+      "url": "https://github.com/snowyu"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Riceball LEE",
+      "email": "snowyu.lee@gmail.com"
+    }
+  ],
+  "pre-commit": [
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/snowyu/fs-file-name-sensitive.js/issues"
+  },
+  "license": "MIT",
+  "stability": "unstable"
+}
