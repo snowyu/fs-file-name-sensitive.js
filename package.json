@@ -1,7 +1,7 @@
 {
   "name": "fs-file-name-sensitive",
   "description": "Check the file name of the file system is case-sensitive or not.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/snowyu/fs-file-name-sensitive.js",
   "repository": {
     "type": "git",
