@@ -22,4 +22,4 @@ notifications:
 addons:
   code_climate:
     repo_token:
-      secure: 0
+      secure: "DywmWsb+FA61PhRYkL1UtkLEY5Z5+SRPLwEr/XGrgUKB4cxF0vFbqMeiFglo0rg/hD/Hb8jJ326oP5N/O6xH+q7oL3VuEOBhAaGIL6V+fUUWpmgAyzNgsWDk4Nu+u/1EWH7nHPyAeLRlrjxHtCA/j7cviAoV8/B7hAkmBO2sfdiKUHiYIFZ2Qbytyi+fc5KdYDW0N1AfIwlfJQijZqYFVvOWd01oFVPE+/p49QC7QL6JAgOIwsJS2UzQNfZw9tN0Q2aahn1bQvrp8RhA3SdsKkzwOiTPyu+tbeRHhocFKaC6MzkGcMOXWupdotKp4+PXtJMDLz5br2+qxeqwROo1fMWp4UvbNLafbWhAenG1uRNWg/HxsOr77+SIvcDn+0Ks+4Tmtr5HiBM5lFzKGdDmRA2NEOY82Nx6FQNfuCG8bGfyv3tkMMvzu4WyxpioTT5+zna7kLRfPfleVmc7jZn2bDPtJ9Vkc2NvYkgbd3yYfMSe4nS05vrIOIdl/fn7ZEZv/3wNDmeF4xIOY6ersoEt0axukxOWYpKjybvnr1+WAsd4Gb6Y9o/ArVB/fZ3zB2t9ihtpxO0Ujw+bw0vfxZarip9a2p3xb2X+03uxL8hF85s8Bx7X9oPiIM/FUX2/fzyZoxaiHc6VkNdjf9+XyQwLnQxVJB+B3OeMAj5jz5KhJRg="
