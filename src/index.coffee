@@ -19,6 +19,9 @@ fns.cache = {}
 
 fns.caseSensitive = isCaseSensitive = (aPath)->
     t = tmp.fileSync template: path.join aPath, '_tmp-XXXXXXXXX'
-    result = !fs.existsSync t.name.toUpperCase()
+    vDirName  = path.dirname(t.name)
+    vBaseName = path.basename(t.name)
+    vBaseName = vBaseName.toUpperCase()
+    result = !fs.existsSync(path.join(vDirName, vBaseName));
     t.removeCallback()
     result
